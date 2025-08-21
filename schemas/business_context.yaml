@@ -1,0 +1,19 @@
+# D:\Zenith AI\MAS_UseCase\schemas\business_context.yaml
+brand: "NovaMobile Retail"
+channels: ["Stores", "Online", "Partners"]
+regions: ["North", "South", "East", "West"]
+primary_kpis:
+  - sales_units
+  - revenue
+  - gross_margin_pct
+  - conversion_rate
+  - stockout_rate
+constraints:
+  - "Promotions cannot exceed 15% off without VP approval"
+  - "Inventory transfers capped at 20% of store stock per week"
+seasonality:
+  - "Q4 demand spike for flagship models"
+  - "Heat reduces footfall in South during May–June"
+objectives_examples:
+  - "Increase this year's revenue in West by 8% without raising stockout_rate"
+  - "Reduce stockouts below 2% while keeping revenue flat"
